@@ -2,16 +2,23 @@ body{
     background-color:rgb(236, 248, 248);
 }
 section{
-    background-color: rgb(193, 240, 243);
+    background-color: rgb(222, 243, 247);
+}
+.part1 h4{
+    font-family: sans-serif;
+}
+.part1 p{
+    color: gold;
 }
 
-.p1{
-    display: inline-flex;
-    text-decoration: none;
-}
-.p1 nav ul{
-    padding-left: 700px;
-     margin: 30px;
+ ul li{
+    list-style: none;
+    display: inline;
+    padding: 2px;
+    float: right;
+    padding-left: 100px; 
+
+      
 }
 .p1{
     color: black;
@@ -23,7 +30,7 @@ section{
     
     display: inline;
 }
-.p2{
+.p1 p{
     color: chocolate;
 }
  .wrap nav a{ 
@@ -33,38 +40,61 @@ section{
 
 }
 .page1{
-    text-align: left;
-    font-size: 15px;
-    margin-top: 50px;
+    margin-left: 60px;
+    font-family: sans-serif;
+   
 }
 .page1 p{
-    float: left;
+    font-size: 18px;
 }
-.page1 h3{
-    font-family: sans-serif;
-    font-size: 50px;
-}
+
  .page1 button{
-    margin-top: 100px;
-    padding-right: 100px;
-    margin-right: -10px;
+    padding: 13px;
+    color: white;
     background-color: rgb(99, 190, 190);
-    border: none;
-    color: aliceblue;
-    content: right;
-}  
+    border-radius: 10px; 
+    border: none;  
+} 
+.page1 i{
+    background-color:white;
+    border-radius: 90px;
+    margin-right: 50%;
+    padding: 18px;
+    margin-left: 20px;
+} 
 .imge img{
 margin-right: 100%;
 border-width:none;
 border-radius: none;
 width: 550px;
 height: 300px;
+margin-top: -35%;
 }
+.imge p{
+    background-color: white;
+    /* border-radius: 30px; */
+    padding: 18px;
+    margin-left: 20px;
+    margin-right: 300px;
+}
+.imge i {
+    margin-left: 300px;
+    display: inline-flex;
+    background-color:rgb(236, 147, 14);
+    border-radius: 90px;
+    padding: 18px;
+
+ } 
 
 .services{
     padding: 100px;
     margin: 100px;
     display: inline-flex;
+} 
+.services h2{
+    font-size: 30px;
+    padding-left: -10x;
+    font-family: sans-serif;
 }
 .text1{
     padding: 30px;
@@ -72,37 +102,77 @@ height: 300px;
     background-color:white; 
 
 }
+.text1 i{
+    background-color:rgb(176, 224, 228);
+    border-radius: 90px;
+    margin-right: 50%;
+    padding: 18px;
+    margin-left: 20px;
+}
 .text2{
     padding: 30px;
     margin: 100px;
     background-color:white; 
+}
+.text2 i{
+    background-color:rgb(176, 224, 228);
+    border-radius: 90px;
+    margin-right: 50%;
+    padding: 18px;
+    margin-left: 20px;
 }
  .text3{
      padding: 30px;
      margin: 100px;
      background-color:white;
  }
+ .text3 i{
+    background-color:rgb(176, 224, 228);
+    border-radius: 90px;
+    margin-right: 50%;
+    padding: 18px;
+    margin-left: 20px;
+ }
  .sec{
     display: inline-flex;
     font-family: sans-serif;
+    padding-top: -10%;
  }
  .txt4{
      padding: 30px;
      margin: 100px;
      background-color: white;
+ } 
+ .txt4 i{
+    background-color:rgb(176, 224, 228);
+    border-radius: 90px;
+    margin-right: 50%;
+    padding: 18px;
+    margin-left: 20px;
  }
  .txt5{
      padding: 30px;
      margin: 100px;
      background-color:white;
  }
+ .txt5 i{
+    background-color:rgb(176, 224, 228);
+    border-radius: 90px;
+    margin-right: 50%;
+    padding: 18px;
+    margin-left: 20px;
+ }
  .txt6{
      padding: 30px;
      margin: 100px;
      background-color: white;
  }
- .text6 i{
-     text-shadow: red;
+ .txt6 i{
+    background-color:rgb(176, 224, 228);
+    border-radius: 90px;
+    margin-right: 50%;
+    padding: 18px;
+    margin-left: 20px;
  }
   .another{
      display: inline-flex;
@@ -125,7 +195,7 @@ height: 300px;
      padding: 30px;
      margin: 70px;
      display: inline-flex;
-     padding-bottom: 10px;
+     padding-bottom: -10px;
  }
  .service h2{
      font-size: 30px;
@@ -173,9 +243,14 @@ height: 300px;
 
  .imo{
      padding: 30px;
-     margin: 70px;
-     background-color: rgb(227, 241, 241);
+     margin: 40px;
+     background-color: rgb(52, 112, 112);
+     border-radius: 70px;
  } 
+ .imo img{
+     height:200px ;
+     width: 400px;
+ }
 
 .inform{
     padding: 30px;
@@ -184,25 +259,32 @@ height: 300px;
 .inform h3{
     font-size: 30px;
 }
-.inform button::after{
-    background-color: rgb(6, 41, 48);
+.inform button{
+    padding: 20px;
+    padding-left: 10px;
+    color: white;
+    background-color: rgb(99, 190, 190);
+    border-radius: 10px; 
+    border: none;  
 }
 .contact{
     display: inline-flex;
     background-color:paleturquoise;
     font-family: sans-serif;
- }
+ } 
  .about{
-     padding-left: 100px;
+     padding-left: 200px;
      margin: 70px;
      background-color:azure ;
      background-size: cover;
+     background-size:1000px ;
  }
  .about i{
      color:rgb(128, 229, 233);
  }
  .friends{
-     padding-right: 100px;
+     padding-right: 200px;
+     /* padding-left: 300px; */
      margin: 70px;
      background-color:azure;
      background-size: 1000px;
@@ -222,26 +304,39 @@ height: 300px;
      padding: 30px;
      margin: 70px;
  }
- .column1 i{
-     background-color: blue;
+
+  .icons.iconr i{
+     background-color: brown;
  }
+ .icons{
+     display: inline-flex;
+     /* background-color:rgb(176, 224, 228); */
+    border-radius: 90px;
+    margin-right: 50%;
+    padding: 18px;
+    margin-left: 20px;
+   
+ }
+
  .column2{
      padding: 30px;
      margin: 70px;
  }
- .column2 i{
-     background-color: red;
- }
+ 
  .column3{
      padding: 30px;
      margin: 70px;
  }
- .column3 i{
-     background-color: brown;
- }
+  .column3 i{
+    background-color:rgb(176, 224, 228);
+    border-radius: 90px;
+    margin-right: 50%;
+    padding: 18px;
+    margin-left: 20px;
+ } 
  .column4{
     padding: 30px;
-    margin: 100px;
+    margin: 70px;
  }
  .footer{
      display: inline-flex;
@@ -250,7 +345,8 @@ height: 300px;
  }
 
  .sub{
-     padding: 40px;
+     padding: 80px;
+     padding-right: 90px;
      background-color:rgb(193, 247, 239);
      align-content: center;
      font-size: 25px;
@@ -271,13 +367,18 @@ height: 300px;
     font-family: sans-serif;
     }
     .email button{
-        background: rgb(15, 70, 65);
-        color: white;
-        padding-left: 100px;
+    padding: 28px;
+    background-color: rgb(99, 190, 190);
+    border-radius: 10px; 
+    border: none;  
+    margin-left: 300px;
     }
     .email input{
-        margin-top: 30px;
-        padding-right:100px ;
+        padding: 15px;
+        color: white;
+        background-color:white;
+        border-radius: 70px; 
+        border: none;  
     }
  
  h1{
